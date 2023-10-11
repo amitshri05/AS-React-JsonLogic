@@ -5,7 +5,7 @@ import Table from 'react-bootstrap/Table';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
-const JsonLogicProcessor = () => {
+const ArithmeticCalculator = () => {
   const [result, setResult] = useState('');
   const [operation, setOperation] = useState('+');
   const [value1, setValue1] = useState(0);
@@ -92,4 +92,4 @@ const JsonLogicProcessor = () => {
   );
 };
 
-export default JsonLogicProcessor;
+export default ArithmeticCalculator;

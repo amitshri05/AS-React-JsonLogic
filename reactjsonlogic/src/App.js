@@ -1,25 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import JsonLogicProcessor  from '../src/JsonLogic';
+import ArithmeticCalculator   from './ArithmeticCalculator';
 
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <header>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        Simplifying Complex Logic with JSONLogic in React
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-      <JsonLogicProcessor></JsonLogicProcessor>
+      </header>
+      <ArithmeticCalculator ></ArithmeticCalculator >
     </div>
   );
 }
